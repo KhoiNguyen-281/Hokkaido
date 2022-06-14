@@ -1,0 +1,13 @@
+#content {
+    height: 90%;
+    width:100%;
+}
+
+.intro {
+    height: 21.5%;
+    background: url("hokkaido-street-1.jpeg") no-repeat;
+    background-size: contain;
+}
+.intro h2 {
+
+}

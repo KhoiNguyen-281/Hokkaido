@@ -1,0 +1,64 @@
+#header {
+    width: 100%;
+    height: 5%;
+    background: black;
+    position: fixed;
+    top: 0;
+}
+#nav {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+#nav #logo {
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 150%;
+}
+.main-nav {
+    width: fit-content;
+    display: inline-flex;
+    margin-left: 10%;
+
+}
+.nav-item {
+    margin: 0 5%;
+    padding: 5% 10%;
+    list-style: none;
+    position: relative;
+}
+.nav-item:hover > #sub-nav {
+    display: block;
+}
+.nav-item:hover > a {
+    color: rgb(101, 103, 105);
+}
+.nav-item > a {
+    transition: var(--transition);
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 120%;
+    text-decoration: none;
+}
+
+#sub-nav {
+    display: none;
+    margin-top: 8%;
+    width:200px;
+    background: white;
+    position: absolute;
+    left: 0;
+}
+.sub-item {
+    list-style: none;
+    padding: 5% 100% 5% 5%;
+}
+.sub-item > a {
+    font-family: inherit;
+    text-decoration: none;
+    color: inherit;
+    font-size: 100%;
+}
