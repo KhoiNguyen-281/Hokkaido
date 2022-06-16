@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 body {
     height: 500vh;
-    background: black;
+    background: rgb(248, 245, 239);
 }
 :root {
-    --font-family:  Noto Sans Japanese, serif;
-    --color: rgb(232, 234, 237);
+    --font-family: 'Kdam Thmor Pro', sans-serif;
+    /*--font-family:  Noto Sans Japanese, serif;*/
+    --color: rgb(117, 107, 40);
     --transition: 0.5s;
+    --content-width: 80%;
+    --background-theme-color: rgb(248, 245, 239);
 }
